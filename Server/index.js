@@ -13,7 +13,7 @@ const contactRoute=require("./Router/contact-router");
 const serviceRoute=require("./Router/service-router");
 const adminRoute=require("./Router/admin-router")
 const corsOptions={
-    origin:"http://localhost:5173",
+    origin:"https://codinghub-frontend.onrender.com",
     method:"GET, PUT, POST, DELETE, PATCH, HEAD",
     credentials:true,
 };
