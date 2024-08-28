@@ -19,7 +19,7 @@ export const AdminUpdate = () => {
       const id = params.id;
 
       const response = await fetch(
-        `http://localhost:5000/api/admin/users/${id}`,
+        `https://codinghub-backend.onrender.com/api/admin/users/${id}`,
         {
           method: "GET",
           headers: {
@@ -57,7 +57,7 @@ export const AdminUpdate = () => {
     console.log(userData);
     try{
         
-        const response=await fetch(`http://localhost:5000/api/admin/users/update/${params.id}`,{
+        const response=await fetch(`https://codinghub-backend.onrender.com/api/admin/users/update/${params.id}`,{
             method: "PATCH",
             headers:{
               "Content-Type": "application/json",
