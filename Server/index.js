@@ -14,8 +14,8 @@ const serviceRoute=require("./Router/service-router");
 const adminRoute=require("./Router/admin-router")
 const corsOptions={
     origin:"https://codinghub-frontend.onrender.com",
-    method:"GET, PUT, POST, DELETE, PATCH, HEAD",
-    credentials:true,
+    method:"GET, PUT, POST, DELETE, PATCH,",
+    credentials : true,
 };
 app.use(cors(corsOptions));
 app.use(express.json());
