@@ -5,7 +5,7 @@ const cors=require("cors");
 
 const express=require('express');
 const connectDb=require("./utils/db")
-const port=process.env.PORT||5000;
+const port=process.env.PORT;
 const authRoute=require("./Router/auth-router");
 const errormiddleware = require('./middlewares/error-middleware');
 const app=express();
