@@ -25,7 +25,7 @@ export const Login = () => {
     console.log(user);
     
     try{
-      const response= await fetch("https://codinghub-backend.onrender.com/api/auth/login",{
+      const response= await fetch("https://codinghub-project-backend.vercel.app/api/auth/login",{
         method: "POST",
         headers: {
           "Content-Type": "application/json",
