@@ -22,7 +22,7 @@ const serviceRoute=require("./Router/service-router");
 const adminRoute=require("./Router/admin-router")
 //this is the cors validation
 const corsOptions={
-    origin:"https://codinghub-frontend.onrender.com",
+    origin:"https://codinghbu-frontend.vercel.app",
     method:"GET, PUT, POST, DELETE, PATCH,",
     credentials : true,
 };
