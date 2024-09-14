@@ -28,7 +28,7 @@ export const Register = () => {
   e.preventDefault();
   console.log(user);
   try {
-    const response = await fetch("https://codinghub-backend.onrender.com/api/auth/register", {
+    const response = await fetch("https://codinghub-project-backend.vercel.app/api/auth/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
