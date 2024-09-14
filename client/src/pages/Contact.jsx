@@ -35,7 +35,7 @@ export const Contact = () => {
     e.preventDefault();
     console.log(contactUser);
     try {
-      const response = await fetch("https://codinghub-backend.onrender.com/api/form/contact", {
+      const response = await fetch("https://codinghub-project-backend.vercel.app/api/form/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
