@@ -10,7 +10,7 @@ export const AdminUsers = () => {
 
   const getAllUsersData = async () => {
     try {
-      const response = await fetch("https://codinghub-backend.onrender.com/api/admin/users", {
+      const response = await fetch("https://codinghub-project-backend.vercel.app/api/admin/users", {
         method: "GET",
         headers: {
           Authorization: authorization,
@@ -28,7 +28,7 @@ export const AdminUsers = () => {
   const deleteUser = async (id) => {
     try {
       const response = await fetch(
-        `https://codinghub-backend.onrender.com/api/admin/users/delete/${id}`,
+        `https://codinghub-project-backend.vercel.app/api/admin/users/delete/${id}`,
         {
           method: "DELETE",
           headers: {
